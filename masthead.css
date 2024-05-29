@@ -1,0 +1,13 @@
+#masthead {
+	padding: 40px 0 25px 0; background: #23558a; position: relative;
+	}
+	
+#masthead .nav {
+	position: absolute;
+	top: 50%;
+	transform: translate(0, -50%);
+	right: 25px;
+	display: flex;
+	flex-flow: row-wrap;
+	align-items: center;
+}

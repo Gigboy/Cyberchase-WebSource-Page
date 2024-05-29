@@ -1,0 +1,26 @@
+.single-p {
+	padding: 2.5em 0;
+}
+
+.single-p .cw {
+	max-width: 1100px;
+}
+
+.single-p header {
+	border-bottom: 1px olid #ddd;
+	margin-bottom: 1.5em;
+	padding-bottom: 1.5em;
+}
+
+.single-p header h1 {
+	margin: 0;
+}
+
+.single-p header .meta {
+	margin-top: 1em;
+	font-weight: 600;
+	font-size: 1em;
+	line-height: 1em;
+	vertical-align: middle;
+}
+

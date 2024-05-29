@@ -1,0 +1,30 @@
+.wp-caption {
+	margin: .5em 0 0 0; max-width: 100%;
+	img {display: block; margin: 0; max-width: 100%; height: auto;}
+	&.alignright {margin: 0 0 1em 1em;}
+	&.alignleft {margin: 0 1em 1em 0;}
+}
+
+.wp-caption-text {color: $gray; font-style: italic; font-size: 12px; line-height: 18px; padding: 0 1.5em; margin: 8px 0 16px 0; display: block;}
+
+.alignleft, .alignright, .aligncenter {margin-bottom: 1.625em;}
+.alignleft {display: inline; float: left; margin: 0 1em 1em 0;}
+.alignright {display: inline; float: right; margin: 0 0 1em 1em;}
+.aligncenter {clear: both; display: block; margin-left: auto; margin-right: auto;}
+
+.aligncenter, div.aligncenter {display: block; margin-left: auto; margin-right: auto;}
+.wp-caption { text-align: center; margin: 0px; }
+.wp-caption img {margin: 0; padding: 0; border: 0 none;}
+
+img.centered {display: block; margin-left: auto; margin-right: auto;}
+img.alignright {margin: 0 0 1em 1em; display: inline;}
+img.alignleft {margin: 0 1em 1em 0; display: inline;}
+img.alignnone {margin: 0 0 1em 0;}
+/* End Captions + Images */
+
+img.alignnone, img.aligncenter {max-width: 100%; height: auto;}
+
+.wp-caption.aligncenter {
+	width: 100% !important; max-width: 100% !important; margin-bottom: 1.5em;
+	img {width: 100%; height: auto;}
+}

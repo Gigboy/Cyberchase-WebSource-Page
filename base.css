@@ -1,0 +1,11 @@
+/* === START BASE === */
+
+ul {list-style-type: none; padding-left: 0; margin: 0}
+
+/* === END BASE === */
+
+.off-screen-text, .screen-reader-text {display: block; outline: none; overflow: hidden; text-indent: -999px; white-space: nowrap; width: 1px; height: 1px;}
+
+body {font: 400 100% $font_body; background: #fff; color: #000; overflow-x: hidden; margin: 0; padding: 0;}
+
+.ti {padding: 0 25px;}
